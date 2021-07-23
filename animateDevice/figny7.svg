@@ -1,0 +1,17 @@
+<svg width="180" height="400" viewBox="0 0 180 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="figny7">
+<path id="figny7_device" d="M165 0H15C6.71573 0 0 6.71573 0 15V385C0 393.284 6.71573 400 15 400H165C173.284 400 180 393.284 180 385V15C180 6.71573 173.284 0 165 0Z" fill="#303030"/>
+<path id="figny7_device_circle" d="M80 378C88.8366 378 96 370.837 96 362C96 353.163 88.8366 346 80 346C71.1634 346 64 353.163 64 362C64 370.837 71.1634 378 80 378Z" fill="url(#paint0_linear)"/>
+<path id="figny7_device_circle_border" d="M74 369C82.2843 369 89 362.284 89 354C89 345.716 82.2843 339 74 339C65.7157 339 59 345.716 59 354C59 362.284 65.7157 369 74 369Z" stroke="url(#paint1_linear)" stroke-width="3"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="90" y1="349.8" x2="70" y2="374" gradientUnits="userSpaceOnUse">
+<stop stop-color="#64FA9B"/>
+<stop offset="1" stop-color="#5FE36A"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="74" y1="338" x2="74" y2="367.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#F9F9F9" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

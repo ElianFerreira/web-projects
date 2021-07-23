@@ -1,0 +1,95 @@
+/*
+  @Author Elian Ferreira
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Global Colors e Effects Inicio*/
+
+$color-bg: #ecf3fe;
+$color-card: #ebf5fc;
+$bg-color-button: #0093e9;
+
+
+$bg-color-hover: linear-gradient(43deg, #4158d0 0%, #c850c0 100%);
+$button-color-hover: #c850c0;
+
+
+$box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+  inset -5px -5px 5px rgba(255, 255, 255, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.05),
+  -5px -5px 5px rgba(255, 255, 255, 0.5);
+$box-shadow-card-text: 0 10px 20px rgba(0, 0, 0, 0.1);
+$box-shadow-button: 0 10px 20px rgba(0, 0, 0, 0.3);
+/*Global Colors e Effects Fim*/
+
+body {
+  background-color: $color-bg;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cards {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.card {
+  position: relative;
+  width: 290px;
+  height: 400px;
+
+  box-shadow: $box-shadow;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+.card-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  background: $color-card;
+  box-shadow: $box-shadow-card-text;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.3s ease;
+  p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .button {
+    button {
+      padding: 15px 30px;
+      border: none;
+      border-radius: 20px;
+      color: #fff;
+      background-color: $bg-color-button;
+      box-shadow: $box-shadow-button;
+      cursor: pointer;
+    }
+  }
+
+  &:hover {
+    transition: 0.3s ease;
+    transform: translateY(-70px);
+    color: #fff;
+    background-image: $bg-color-hover;
+
+    button {
+      background-color: $button-color-hover;
+    }
+  }
+}
