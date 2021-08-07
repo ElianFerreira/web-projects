@@ -1,0 +1,43 @@
+@keyframes mudaCor {
+  0% {
+    border-style: solid;
+    border-color: blueviolet;
+    opacity: 0.7;
+  }
+  25% {
+    border-style: solid;
+    border-color: greenyellow;
+    opacity: 0.7;
+  }
+  50% {
+    border-style: solid;
+    border-color: rgb(6, 86, 214);
+    opacity: 0.7;
+  }
+  100% {
+    border-style: solid;
+    border-color: rgb(247, 0, 255);
+    opacity: 0.7;
+  }
+}
+
+.btn-reset {
+  width: 310px;
+  height: 50px;
+  animation: mudaCor 3s ease infinite;
+  border-radius: 5px;
+  margin: 10px auto;
+
+
+  .btn-button {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}

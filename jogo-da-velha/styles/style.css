@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  background-color: #3879D7;
+  text-align: center;
+}
+
+.placar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 3px 0 0 3px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.o {
+  position: relative;
+}
+
+.o::after {
+  position: absolute;
+  content: '\1F981';
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x {
+  position: relative;
+}
+
+.x::after {
+  position: absolute;
+  content: '\1F98F';
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@-webkit-keyframes mudaCor {
+  0% {
+    border-style: solid;
+    border-color: blueviolet;
+    opacity: 0.7;
+  }
+  25% {
+    border-style: solid;
+    border-color: greenyellow;
+    opacity: 0.7;
+  }
+  50% {
+    border-style: solid;
+    border-color: #0656d6;
+    opacity: 0.7;
+  }
+  100% {
+    border-style: solid;
+    border-color: #f700ff;
+    opacity: 0.7;
+  }
+}
+
+@keyframes mudaCor {
+  0% {
+    border-style: solid;
+    border-color: blueviolet;
+    opacity: 0.7;
+  }
+  25% {
+    border-style: solid;
+    border-color: greenyellow;
+    opacity: 0.7;
+  }
+  50% {
+    border-style: solid;
+    border-color: #0656d6;
+    opacity: 0.7;
+  }
+  100% {
+    border-style: solid;
+    border-color: #f700ff;
+    opacity: 0.7;
+  }
+}
+
+.btn-reset {
+  width: 310px;
+  height: 50px;
+  -webkit-animation: mudaCor 3s ease infinite;
+          animation: mudaCor 3s ease infinite;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.btn-reset .btn-button {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
