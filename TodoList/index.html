@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8afeda7812.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Lista de Tarefas</title>
+  </head>
+  <body>
+    <div class="container-principal">
+      <header>
+        <h1>Lista de Tarefas</h1>
+      </header>
+      <main>
+        <div class="input-fild">
+          <input
+            type="text"
+            placeholder="Adicionar Nova Tarefa"
+            name=""
+            id="impt-txt"
+          />
+          <button><i class="fas fa-plus"></i></button>
+        </div>
+
+        <ul class="todo-list"></ul>
+      </main>
+
+      <footer>
+        <span>Você tem <span class="pendentes"></span> tarefas pendentes </span>
+        <button class="btn-delete">Limpar</button>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
