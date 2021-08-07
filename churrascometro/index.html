@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Churrascometro</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Churrascometro</a></li>
+        </ul>
+
+        <section>
+          <a href="https://github.com/ElianFerreira" target="blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
+          <a href="https://twitter.com/elian_ferreir4" target="blank"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </section>
+      </nav>
+
+      <!-- Seção para aplicar o video brackground -->
+      <section class="bg-video">
+        <video class="video" autoplay muted loop>
+          <source src="video/Steak - 16406.mp4" type="video/mp4" />
+        </video>
+      </section>
+    </header>
+
+    <main>
+      <!-- Conteudo do Site -->
+      <div class="container">
+        <h1>Churrascometro</h1>
+        <input
+          type="number"
+          name="adultos"
+          id="adultos"
+          placeholder="Adultos"
+        />
+        <input
+          type="number"
+          name="criancas"
+          id="criancas"
+          placeholder="Crianças"
+        />
+        <input
+          type="number"
+          name="duracao"
+          id="duracao"
+          placeholder="Duração"
+        />
+        <input
+          type="button"
+          value="Calcular"
+          id="calcular"
+          onclick="calcular()"
+        />
+
+        <div id="resultado"></div>
+      </div>
+    </main>
+
+    <footer>
+      <section class="rodape">
+        <p>Criado por Elian Ferreira</p>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

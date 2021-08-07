@@ -1,0 +1,16 @@
+/// Fontes
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/// Resets Globais
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Righteous';
+}
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $body-color;
+}
